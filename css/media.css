@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .container2 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 90%;
+  }
+  .info-box {
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .forms-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-box {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .textarea-box {
+    margin-right: 0;
+  }
+  .pics {
+    flex-direction: column;
+  }
+}
